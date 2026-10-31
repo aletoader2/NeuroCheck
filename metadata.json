@@ -1,0 +1,6 @@
+{
+  "name": "NeuroCheck",
+  "description": "NeuroCheck — Gândește critic. Verifică. Rămâi informat. Platformă educativă dedicată inteligenței artificiale, identificării dezinformării și siguranței online.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

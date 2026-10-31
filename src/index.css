@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-display: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    --font-body: 'DM Sans', system-ui, -apple-system, sans-serif;
+    --color-nc-purple: #7652D6;
+    --color-nc-darkblue: #17265E;
+    --color-nc-lightblue: #A9D8FF;
+    --color-nc-white: #FFFFFF;
+  }
+
+  body {
+    font-family: var(--font-body);
+    color: #17265E;
+    background-color: #FFFFFF;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+    letter-spacing: -0.02em;
+  }
+}
+
+/* Custom interactive effects */
+.btn-primary {
+  background-color: #7652D6;
+  color: #FFFFFF;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.btn-primary:hover {
+  background-color: #6442C4;
+  box-shadow: 0 4px 14px rgba(118, 82, 214, 0.35);
+}
+
+.btn-secondary {
+  background-color: #A9D8FF;
+  color: #17265E;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.btn-secondary:hover {
+  background-color: #92CBFC;
+  box-shadow: 0 4px 14px rgba(169, 216, 255, 0.4);
+}
+
+/* Smooth focus rings */
+*:focus-visible {
+  outline: 2px solid #7652D6;
+  outline-offset: 2px;
+}
