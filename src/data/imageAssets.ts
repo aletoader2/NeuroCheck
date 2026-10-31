@@ -1,3 +1,9 @@
+import heroImage from '../assets/images/hero_student_ai_1793279272334.jpg';
+import factcheckImage from '../assets/images/factcheck_clean_1793286999256.jpg';
+import misinfoPhoneImage from '../assets/images/phone_misinfo_1793279275436.jpg';
+import shieldImage from '../assets/images/shield_digital_ro_clean.jpg';
+import aiGuideImage from '../assets/images/guide_clean_1793286999477.jpg';
+
 export interface ImageAssetItem {
   key: string;
   title: string;
@@ -8,11 +14,11 @@ export interface ImageAssetItem {
 }
 
 export const DEFAULT_IMAGES: Record<string, string> = {
-  hero: '/src/assets/images/hero_student_ai_1793279272334.jpg',
-  factcheck: '/src/assets/images/factcheck_clean_1793286999256.jpg',
-  misinfoPhone: '/src/assets/images/phone_misinfo_1793279275436.jpg',
-  shield: '/src/assets/images/shield_digital_ro_clean.jpg',
-  aiGuide: '/src/assets/images/guide_clean_1793286999477.jpg',
+  hero: heroImage,
+  factcheck: factcheckImage,
+  misinfoPhone: misinfoPhoneImage,
+  shield: shieldImage,
+  aiGuide: aiGuideImage,
 };
 
 export const IMAGE_METADATA: ImageAssetItem[] = [
